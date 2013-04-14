@@ -1,0 +1,1 @@
+A basic Spreadsheet Evaluator which can evaluate cells with references to other cell names (like A6, B9, etc) and the expressions are written in RPN manner. Also checks for cyclic references in cell names.
