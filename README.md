@@ -1,1 +1,3 @@
 A basic Spreadsheet Evaluator which can evaluate cells with references to other cell names (like A6, B9, etc) and the expressions are written in RPN manner. Also checks for cyclic references in cell names.
+
+NOTE:- I realized later on, that my RPN evaluator, though correct, is needlessly over complicated because of the use of two stacks. A much simpler way to do it, is to use just one stack and keep on reading from a input string written in RPN manner.
